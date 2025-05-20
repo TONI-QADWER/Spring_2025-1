@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>BUILDER</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css?_v=20250403000822">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="bg-main">
+				<picture>
+					<source srcset="img/bg-main.webp" type="image/webp"><img class="bg-main-desk" src="img/bg-main.jpg"
+						alt="bg-main">
+				</picture>
+
+			</div>
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="index.html">
+						<picture>
+							<source srcset="img/main-logo.webp" type="image/webp"><img src="img/main-logo.png" alt="logo">
+						</picture>
+					</a>
+				</div>
+				<div data-da=".header__container,480,0" class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-goto=".home-block" class="menu__item"><a href="#" class="menu__link">Домой</a></li>
+							<li data-goto=".about-us" class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+							<li data-goto=".services" class="menu__item"><a href="#" class="menu__link">Продукты</a></li>
+							<li class="menu__item"><a href="partners.html" class="menu__link">Партнеры</a></li>
+							<li data-goto=".footer" class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<button data-popup="#popup" class="header__contact-button contact-button">СВЯЖИТЕСЬ С НАМИ</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="home-block">
+				<div class="home-block__container">
+					<h1 class="home-block__title">BUILDER</h1>
+					<div class="home-block__subtitle">
+						<p>Создаём надёжность, экспортируем успех</p>
+					</div>
+					<div class="home-block__subtitle-text">
+						<p>Пожалуйста, заполните форму обратной связи ниже, и наш менеджер свяжется с вами в ближайшее время</p>
+					</div>
+					<button data-popup="#popup" class="text-section__button contact-button">СВЯЖИТЕСЬ С НАМИ</button>
+				</div>
+			</section>
+
+			<section class="about-us">
+				<div class="about-us__container">
+					<h2 class="about-us__name title-text">О нас</h2>
+					<div class="about-us__raws">
+						<div class="about-us__first-column">
+							<h1 class="about-us__title">BUILDER была основана в 2021 году с целью предоставления высококачественных
+								строительных работ и услуг по проектированию</h1>
+							<h2 class="about-us__subtitle">
+								<p>В процессе развития компании в условиях усложнения цепочек поставок и замедления экспортно-импортных
+									операций наши эксперты разработали направления деятельности в сфере оптовой торговли минеральными
+									удобрениями, сельхозпродукцией, полиэтиленовыми плёнками, авто- и мототранспортом.</p>
+							</h2>
+						</div>
+						<h2 class="about-us__second-column">
+							<p>Несмотря на относительную молодость компании, наши партнёры относятся к нам как к зрелой организации
+								благодаря налаженным бизнес-процессам, чёткой структуре, индивидуальному подходу, закреплению одного
+								ключ-аккаунт-менеджера за клиентом и безусловному выполнению обязательств.</p>
+							<p>Мы - быстрорастущая компания, специализирующаяся на строительстве и торговле. Мы используем синергию
+								инноваций и проверенных методов, выстраиваем долгосрочные отношения с клиентами. Создаём значительную
+								ценность для партнёров, открыты для новых идей и приветствуем новых сотрудников.</p>
+						</h2>
+					</div>
+				</div>
+			</section>
+
+			<section class="services">
+				<div data-tabs data-tabs-hash class="services-tabs">
+					<div class="services__container">
+						<div class="services__name title-text">Наши услуги</div>
+						<nav data-tabs-titles class="services-tabs__navigation">
+							<button data-goto=".about-products-buildings" type="button"
+								class="services-tabs__title tab-block buildings-block _tab-active">
+								<div class="top-block__info">
+									<div class="tab-block__title">СТРОИТЕЛЬСТВО</div>
+									<div class="tab-block__subtitle">Строительство с использованием материалов высокого качества</div>
+								</div>
+								<div class="tab-block__active">
+									<div class="active__name">Посмотреть</div>
+									<div class="active__icon"><img src="img/arrow-right.svg" alt=""></div>
+								</div>
+							</button>
+							<button data-goto=".about-products-fertilizers" type="button"
+								class="services-tabs__title tab-block fertilizers-block">
+								<div class="top-block__info">
+									<div class="tab-block__title">УДОБРЕНИЯ</div>
+									<div class="tab-block__subtitle">Эффективный уход за растениями</div>
+								</div>
+								<div class="tab-block__active">
+									<div class="active__name">Посмотреть</div>
+									<div class="active__icon"><img src="img/arrow-right.svg" alt=""></div>
+								</div>
+							</button>
+							<button data-goto=".about-products-polyethylene" type="button"
+								class="services-tabs__title tab-block polyethylene-block">
+								<div class="top-block__info">
+									<div class="tab-block__title">ПОЛИЭТИЛЕН</div>
+									<div class="tab-block__subtitle">Надёжная защита сельхозкультур</div>
+								</div>
+								<div class="tab-block__active">
+									<div class="active__name">Подробнее</div>
+									<div class="active__icon"><img src="img/arrow-right.svg" alt=""></div>
+								</div>
+							</button>
+							<button data-goto=".about-products-auto" type="button"
+								class="services-tabs__title tab-block motorcycles-block">
+								<div class="top-block__info">
+									<div class="tab-block__title">МОТОЦИКЛЫ И АВТО</div>
+									<div class="tab-block__subtitle">Лучшие автомобили из Европы</div>
+								</div>
+								<div class="tab-block__active">
+									<div class="active__name">Посмотреть</div>
+									<div class="active__icon"><img src="img/arrow-right.svg" alt=""></div>
+								</div>
+							</button>
+						</nav>
+					</div>
+
+					<div data-tabs-body class="services-tabs__content">
+						<div class="services-tabs__body">
+							<section class="about-products about-products-buildings">
+								<div class="about-products__container">
+									<div class="about-products__name title-text">О продукте</div>
+									<div class="about-products__raw about-products__raw-building">
+										<div class="about-products__first-column">
+											<div class="first-column__text">
+												<p>Мы профессиональная организация, специализирующаяся на проектировании и строительстве зданий
+													и сооружений различного функционального назначения.</p>
+												<p>Наша команда состоит из опытных специалистов с глубокими знаниями в области строительства и
+													проектирования.</p>
+											</div>
+											<button data-popup="#popup" data-da=".about-products__raw-building,480,2"
+												class="first-column__button black__button">Подробнее</button>
+										</div>
+										<div class="about-products__second-column">
+											<p>Мы гордимся тем, что предлагаем клиентам полный комплекс строительных и проектных услуг. Наша
+												компания имеет благоприятную репутацию благодаря использованию современных технологий и
+												материалов.</p>
+											<p>Мы уделяем особое внимание соблюдению сроков реализации проектов и стремимся к максимальному
+												удовлетворению потребностей клиентов. Наша команда готова реализовать самые амбициозные проекты,
+												обеспечивая высокий уровень сервиса и качества.</p>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section class="qualities">
+								<div class="qualities__container">
+									<div class="qualities__bg">
+										<picture>
+											<source srcset="img/bg-middle-buildings.webp" type="image/webp"><img class="building-bg"
+												src="img/bg-middle-buildings.jpg" alt="">
+										</picture>
+										<picture>
+											<source srcset="img/bg-middle-buildings-mob.webp" type="image/webp"><img class="building-bg-mob"
+												src="img/bg-middle-buildings-mob.jpg" alt="">
+										</picture>
+									</div>
+									<div class="qualities__raw">
+										<div class="qualities__block qualities-block buildings-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Полный комплекс строительных и проектных услуг</div>
+											<div class="qualities-block__img"><img src="img/building-qualiti-1.svg" alt=""></div>
+										</div>
+										<div class="qualities__block qualities-block buildings-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Используем современные технологии и материалы</div>
+											<div class="qualities-block__img"><img src="img/building-qualiti-2.svg" alt=""></div>
+										</div>
+										<div class="qualities__block qualities-block buildings-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Индивидуальный подход к каждому клиенту</div>
+											<div class="qualities-block__img"><img src="img/building-qualiti-3.svg" alt=""></div>
+										</div>
+										<div class="qualities__block qualities-block buildings-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Соблюдаем сроки реализации проектов</div>
+											<div class="qualities-block__img"><img src="img/building-qualiti-4.svg" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="building-photo">
+								<div class="building-photo__container">
+									<div class="building-photo__first-raw">
+										<div class="first-raw__first-obj"></div>
+										<div class="first-raw__second-obj"></div>
+									</div>
+									<div class="building-photo__second-raw">
+										<div class="second-raw__first-obj"></div>
+										<div class="second-raw__second-obj"></div>
+									</div>
+									<div class="building-photo__info">
+										<h2 class="building-photo__text-info">
+											<div class="building-photo__text">
+												<p>Если у вас есть вопросы или нужна консультация, пожалуйста, заполните форму обратной связи
+													ниже. Наша команда экспертов свяжется с вами в ближайшее время.</p>
+												<p>Благодарим за доверие и возможность сотрудничать. Гарантируем приоритетную обработку вашего
+													запроса для обеспечения лучшего сервиса и помощи в реализации ваших проектов.</p>
+											</div>
+											<button data-popup="#popup" class="button-info black__button contact-button">Связаться с
+												нами</button>
+										</h2>
+										<div data-da=".building-photo__container,480,2" class="building-photo__img-info">
+											<picture>
+												<source srcset="img/building-info.webp" type="image/webp"><img src="img/building-info.jpg"
+													alt="">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+
+						<div class="services-tabs__body">
+							<section class="about-products about-products-fertilizers">
+								<div class="about-products__container">
+									<div class="about-products__name title-text">О продукте</div>
+									<div class="about-products__raw about-products__raw-fertilize">
+										<div class="about-products__first-column">
+											<div class="first-column__text">
+												<p>Наши удобрения - результат сотрудничества с европейскими научными центрами, представлены в
+													15+ странах.</p>
+												<p>Каждая формула разрабатывается с учётом типа почвы, климатических условий и особенностей
+													культур.</p>
+											</div>
+											<button data-popup="#popup" data-da=".about-products__raw-fertilize,480,2"
+												class="first-column__button black__button">
+												Подробнее
+											</button>
+										</div>
+										<div class="about-products__second-column">
+											<p>Благодаря собственной лаборатории и обратной связи с аграриями мы:</p>
+											<ul>
+												<li>Оперативно адаптируемся к изменениям рынка</li>
+												<li>Повышаем эффективность формул</li>
+												<li>Снижаем экологическую нагрузку</li>
+												<li>Гарантируем безопасность для растений</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="qualities">
+								<div class="qualities__container">
+									<div class="qualities__bg">
+										<picture>
+											<source srcset="img/bg-middle-fertilized.webp" type="image/webp"><img class="fertilize-bg"
+												src="img/bg-middle-fertilized.jpg" alt="">
+										</picture>
+										<picture>
+											<source srcset="img/bg-middle-fertilized-mob.webp" type="image/webp"><img class="fertilize-bg-mob"
+												src="img/bg-middle-fertilized-mob.jpg" alt="">
+										</picture>
+									</div>
+									<div class="qualities__container">
+										<div class="qualities__raw">
+											<div class="qualities__block qualities-block fertilizers-quality-block">
+												<div class="qualities-block__title">50+</div>
+												<div class="qualities-block__subtitle">Уникальных формул удобрений</div>
+												<div class="qualities-block__img"><img src="img/fertilize-qualiti-1.svg" alt=""></div>
+											</div>
+											<div class="qualities__block qualities-block fertilizers-quality-block">
+												<div class="qualities-block__title">6000+</div>
+												<div class="qualities-block__subtitle">Клиентов по всему миру</div>
+												<div class="qualities-block__img"><img src="img/fertilize-qualiti-2.svg" alt=""></div>
+											</div>
+											<div class="qualities__block qualities-block fertilizers-quality-block">
+												<div class="qualities-block__title">500+</div>
+												<div class="qualities-block__subtitle">Испытаний ежегодно</div>
+												<div class="qualities-block__img"><img src="img/fertilize-qualiti-3.svg" alt=""></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="products">
+								<div class="products__container">
+									<div class="products__raw">
+										<!-- Продукт 1 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-1.webp" type="image/webp"><img
+														src="img/ferttilize-product-1.jpg" alt="B 170">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">B 170</div>
+												<div class="block-product__subtitle">Концентрированное жидкое борное удобрение</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 2 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-2.webp" type="image/webp"><img
+														src="img/ferttilize-product-2.jpg" alt="B 170 + Mo">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">B 170 + Mo</div>
+												<div class="block-product__subtitle">Стимулятор роста сельхозкультур</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 3 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-3.webp" type="image/webp"><img
+														src="img/ferttilize-product-3.jpg" alt="NPK 0-21-28">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">NPK 0-21-28</div>
+												<div class="block-product__subtitle">Содержит L-пролин и микроэлементы</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 4 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-4.webp" type="image/webp"><img
+														src="img/ferttilize-product-4.jpg" alt="NPK 0-42-21 + TE">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">NPK 0-42-21 + TE</div>
+												<div class="block-product__subtitle">Фосфорно-калийный комплекс с бором и магнием</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 5 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-5.webp" type="image/webp"><img
+														src="img/ferttilize-product-5.jpg" alt="Enzo">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Enzo</div>
+												<div class="block-product__subtitle">Марганец-цинковый комплекс с L-Пролином</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 6 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-6.webp" type="image/webp"><img
+														src="img/ferttilize-product-6.jpg" alt="Zinto">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Zinto</div>
+												<div class="block-product__subtitle">Стимулятор физиологических процессов</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 7 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-7.webp" type="image/webp"><img
+														src="img/ferttilize-product-7.jpg" alt="Kalisto">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Kalisto</div>
+												<div class="block-product__subtitle">Калийное удобрение для дополнительной подкормки</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+
+										<!-- Продукт 8 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/ferttilize-product-8.webp" type="image/webp"><img
+														src="img/ferttilize-product-8.jpg" alt="PerfectStick">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">PerfectStick</div>
+												<div class="block-product__subtitle">Улучшает впитывание питательных растворов</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">Узнать стоимость</button>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+
+						<div class="services-tabs__body">
+							<!-- Секция описания полиэтилена -->
+							<section class="about-products about-products-polyethylene">
+								<div class="about-products__container">
+									<div class="about-products__name title-text">О продукте</div>
+									<div class="about-products__raw about-products__raw-polyetylene">
+										<div class="about-products__first-column">
+											<div class="first-column__text">
+												<p>Мы сотрудничаем напрямую с производителями полиэтиленовой продукции, исключая посредников.
+												</p>
+												<p>Каждая поставка сопровождается полным пакетом документов: сертификаты качества, паспорта
+													продукции и товарные накладные.</p>
+											</div>
+											<button data-popup="#popup" data-da=".about-products__raw-polyetylene,480,3"
+												class="first-column__button black__button">
+												Подробнее
+											</button>
+										</div>
+										<div class="about-products__second-column">
+											<p>Наши преимущества:</p>
+											<ul>
+												<li>Персональный менеджер для каждого клиента</li>
+												<li>Гибкие условия для оптовых закупок</li>
+												<li>Гарантия сохранности груза при транспортировке</li>
+												<li>Консультации по выбору оптимальных материалов</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Секция преимуществ -->
+							<section class="qualities">
+								<div class="qualities__products">
+									<div class="qualities__bg">
+										<picture>
+											<source srcset="img/bg-middle-polyeth.webp" type="image/webp"><img class="polyethylene-bg"
+												src="img/bg-middle-polyeth.jpg" alt="Фон полиэтиленовой продукции">
+										</picture>
+										<picture>
+											<source srcset="img/bg-middle-polyeth-mob.webp" type="image/webp"><img class="polyethylene-bg-mob"
+												src="img/bg-middle-polyeth-mob.jpg" alt="Фон для мобильных устройств">
+										</picture>
+									</div>
+									<div class="qualities__container">
+										<div class="qualities__raw">
+											<div class="qualities__block qualities-block polyethylene-quality-block">
+												<div class="qualities-block__title"></div>
+												<div class="qualities-block__subtitle">Доверительные отношения с клиентами</div>
+												<div class="qualities-block__img">
+													<img src="img/polyethylene-qualiti-1.svg" alt="Иконка рукопожатия">
+												</div>
+											</div>
+
+											<div class="qualities__block qualities-block polyethylene-quality-block">
+												<div class="qualities-block__title"></div>
+												<div class="qualities-block__subtitle">Соблюдение сроков поставок</div>
+												<div class="qualities-block__img">
+													<img src="img/polyethylene-qualiti-2.svg" alt="Иконка часов">
+												</div>
+											</div>
+
+											<div class="qualities__block qualities-block polyethylene-quality-block">
+												<div class="qualities-block__title"></div>
+												<div class="qualities-block__subtitle">Гарантия качества продукции</div>
+												<div class="qualities-block__img">
+													<img src="img/polyethylene-qualiti-3.svg" alt="Иконка гарантии">
+												</div>
+											</div>
+
+											<div class="qualities__block qualities-block polyethylene-quality-block">
+												<div class="qualities-block__title"></div>
+												<div class="qualities-block__subtitle">Лидерские позиции на рынке</div>
+												<div class="qualities-block__img">
+													<img src="img/polyethylene-qualiti-1.svg" alt="Иконка лидерства">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Каталог продукции -->
+							<section class="products">
+								<div class="products__container">
+									<div class="products__raw">
+										<!-- Продукт 1 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/polyethylene-1.webp" type="image/webp"><img src="img/polyethylene-1.jpg"
+														alt="Агрострейч-плёнка">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Агрострейч-плёнка</div>
+												<div class="block-product__subtitle">Для упаковки силоса и кормов</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">
+												Узнать стоимость
+											</button>
+										</div>
+
+										<!-- Продукт 2 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/polyethylene-2.webp" type="image/webp"><img src="img/polyethylene-2.jpg"
+														alt="Полиэтиленовая плёнка">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Полиэтиленовая плёнка</div>
+												<div class="block-product__subtitle">Для сельскохозяйственного применения</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">
+												Узнать стоимость
+											</button>
+										</div>
+
+										<!-- Продукт 3 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/polyethylene-3.webp" type="image/webp"><img src="img/polyethylene-3.jpg"
+														alt="Сетка для сена">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Сетка для сена</div>
+												<div class="block-product__subtitle">Универсальная для всех типов пресс-подборщиков</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">
+												Узнать стоимость
+											</button>
+										</div>
+
+										<!-- Продукт 4 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/polyethylene-4.webp" type="image/webp"><img src="img/polyethylene-4.jpg"
+														alt="Сенажная бечёвка">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Сенажная бечёвка</div>
+												<div class="block-product__subtitle">Для надёжной упаковки сельхозпродукции</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">
+												Узнать стоимость
+											</button>
+										</div>
+
+										<!-- Продукт 5 -->
+										<div class="products__block block-product">
+											<div class="block-product__img">
+												<picture>
+													<source srcset="img/polyethylene-5.webp" type="image/webp"><img src="img/polyethylene-5.jpg"
+														alt="Паллетная упаковка">
+												</picture>
+											</div>
+											<div class="block-product__content">
+												<div class="block-product__title">Паллетная упаковка</div>
+												<div class="block-product__subtitle">Прочные материалы для паллетирования</div>
+											</div>
+											<button data-popup="#popup" class="block-product__button black__button">
+												Узнать стоимость
+											</button>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+
+						<div class="services-tabs__body">
+							<!-- Секция описания автотехники -->
+							<section class="about-products about-products-auto">
+								<div class="about-products__container">
+									<div class="about-products__name title-text">О продукте</div>
+									<div class="about-products__raw about-products__raw-auto">
+										<div class="about-products__first-column">
+											<div class="first-column__text">
+												<p>Мы предлагаем полный цикл услуг: от подбора до юридического оформления транспортных средств.
+												</p>
+												<p>Каждый автомобиль и мотоцикл проходит многоэтапную проверку технического состояния и
+													юридической чистоты.</p>
+											</div>
+											<button data-popup="#popup" data-da=".about-products__raw-auto,480,3"
+												class="first-column__button black__button">
+												Подробнее
+											</button>
+										</div>
+										<div class="about-products__second-column">
+											<p>Наши преимущества:</p>
+											<ul>
+												<li>Экспертная оценка перед покупкой</li>
+												<li>Проверка истории транспортного средства</li>
+												<li>Полное таможенное оформление</li>
+												<li>Гарантия легальности сделки</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Секция преимуществ -->
+							<section class="qualities">
+								<div class="qualities__container">
+									<div class="qualities__bg">
+										<picture>
+											<source srcset="img/bg-middle-auto.webp" type="image/webp"><img class="auto-bg"
+												src="img/bg-middle-auto.jpg" alt="Фон автотехники">
+										</picture>
+										<picture>
+											<source srcset="img/bg-middle-auto-mob.webp" type="image/webp"><img class="auto-bg-mob"
+												src="img/bg-middle-auto-mob.jpg" alt="Фон для мобильных">
+										</picture>
+									</div>
+									<div class="qualities__raw">
+										<div class="qualities__block qualities-block auto-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Профессиональный подбор техники</div>
+											<div class="qualities-block__img">
+												<img src="img/auto-qualiti-1.svg" alt="Иконка подбора">
+											</div>
+										</div>
+
+										<div class="qualities__block qualities-block auto-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Полная диагностика состояния</div>
+											<div class="qualities-block__img">
+												<img src="img/auto-qualiti-2.svg" alt="Иконка диагностики">
+											</div>
+										</div>
+
+										<div class="qualities__block qualities-block auto-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Юридическое сопровождение сделки</div>
+											<div class="qualities-block__img">
+												<img src="img/auto-qualiti-3.svg" alt="Иконка документов">
+											</div>
+										</div>
+
+										<div class="qualities__block qualities-block auto-quality-block">
+											<div class="qualities-block__title"></div>
+											<div class="qualities-block__subtitle">Конкурентные рыночные цены</div>
+											<div class="qualities-block__img">
+												<img src="img/auto-qualiti-4.svg" alt="Иконка цены">
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Галерея автотехники -->
+							<section class="auto-photo">
+								<div class="auto-photo__container">
+									<div class="auto-photo__first-auto">
+										<!-- Блок BMW -->
+										<div class="first-auto__first-obj">
+											<div class="first-auto__second-bg"></div>
+											<div class="first-auto__first-title">BMW M2 F87</div>
+											<div class="first-auto__second-subtitle">Уточнить характеристики</div>
+										</div>
+
+										<!-- Блок Mercedes -->
+										<div class="first-auto__second-obj">
+											<div class="first-auto__second-bg"></div>
+											<div class="first-auto__second-title">Mercedes-Benz EQS</div>
+											<div class="first-auto__second-subtitle">Получить консультацию</div>
+										</div>
+									</div>
+
+									<div class="auto-photo__second-auto">
+										<!-- Блок Harley-Davidson -->
+										<div class="second-auto__first-obj">
+											<div class="second-auto__second-bg"></div>
+											<div class="second-auto__first-title">Harley-Davidson</div>
+											<div class="second-auto__second-subtitle">Тест-драйв по запросу</div>
+										</div>
+
+										<!-- Блок Audi -->
+										<div class="second-auto__second-obj">
+											<div class="second-auto__second-bg"></div>
+											<div class="second-auto__second-title">Audi RS7 Sportback</div>
+											<div class="second-auto__second-subtitle">Подробные технические характеристики</div>
+										</div>
+									</div>
+
+									<!-- Информационный блок -->
+									<div class="auto-photo__info">
+										<div class="auto-photo__text-info">
+											<div class="auto-photo__text">
+												<p>Нужна помощь в выборе транспортного средства?</p>
+												<p>Оставьте заявку - наш специалист подготовит для вас:</p>
+												<ul>
+													<li>Подборку под ваш бюджет</li>
+													<li>Отчёт о техническом состоянии</li>
+													<li>Варианты страхования</li>
+													<li>Индивидуальные условия покупки</li>
+												</ul>
+											</div>
+											<button data-popup="#popup" class="button-info black__button contact-button">
+												Связаться с менеджером
+											</button>
+										</div>
+										<div data-da=".auto-photo__container,480,2" class="auto-photo__img-info">
+											<picture>
+												<source srcset="img/auto-info.webp" type="image/webp"><img src="img/auto-info.jpg"
+													alt="Консультация по подбору авто">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+			</section>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__logo">
+				<a href="#">
+					<picture>
+						<source srcset="img/main-logo-dark.webp" type="image/webp"><img src="img/main-logo-dark.png" alt="logo">
+					</picture>
+				</a>
+			</div>
+			<div class="footer__title">Создаём надёжность, экспортируем успех!
+			</div>
+			<div class="footer__nav">
+				<ul data-da=".footer__nav,480,2" class="nav__title">
+					<h1 class="title__footer-nav">Социальные сети</h1>
+					<div class="footer__social-raw">
+						<li class="nav__item"><a href="#"><img src="img/icons/inst-icon.svg" alt="inst-icon"></a></li>
+						<li class="nav__item"><a href="#"><img src="img/icons/facebook-icon.svg" alt="facebook-icon"></a></li>
+						<li class="nav__item"><a href="#"><img src="img/icons/vk-icon.svg" alt="vk-icon"></a></li>
+					</div>
+				</ul>
+				<ul class="nav__title">
+					<h1 class="title__footer-nav">Компания</h1>
+					<li data-goto=".about-us" class="nav__item"><a href="">О нас</a> </li>
+					<li data-goto=".services" class="nav__item"><a href="">Наша продукция</a> </li>
+					<li class="nav__item"><a href="">Контакты</a> </li>
+				</ul>
+				<ul class="nav__title">
+					<h1 class="title__footer-nav">Наша продукция</h1>
+					<li class="nav__item"><a href="index.html#tab-0-0">Здания</a> </li>
+					<li class="nav__item"><a href="index.html#tab-0-1">Удобрения</a> </li>
+					<li class="nav__item"><a href="index.html#tab-0-2">Полиэтилен</a> </li>
+					<li class="nav__item"><a href="index.html#tab-0-3">Мотоциклы и автомобили</a></li>
+				</ul>
+				<ul class="nav__title">
+					<h1 class="title__footer-nav">Контакты</h1>
+					<li class="nav__item">Builder@gmail.com</li>
+					<li class="nav__item">Рязань, улица Семёна Середы, 29 </li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__raws">
+					<div class="popoup__first-raw contact-raw-popup">
+						<div class="contact-raw-popup__text">
+							<div class="contact-raw-popup__title">Контакты</div>
+							<div class="contact-raw-popup__subtitle">Свяжитесь с нами в любое время!</div>
+						</div>
+						<div class="contact-raw-popup__adress">
+							<div class="adress__mail">Builder@gmail.com</div>
+							<div class="adress__location">Рязань, улица Семёна Середы, 29</div>
+						</div>
+						<div class="contact-raw-popup__socials-popup">
+							<div class="socials-popup__title">Мы в социальных сетях</div>
+							<div class="socials-popup__icon">
+								<div class="socials-popup__inst"><a href="№"><img src="img/icons/inst-icon.svg" alt="Instagram"></a>
+								</div>
+								<div class="socials-popup__facebook"><a href="№"><img src="img/icons/facebook-icon.svg"
+											alt="Facebook"></a></div>
+								<div class="socials-popup__vk"><a href="№"><img src="img/icons/vk-icon.svg" alt="VK"></a></div>
+							</div>
+						</div>
+					</div>
+					<div data-da=".popup__raws,480,0" class="popoup__second-raw message-raw-popup">
+						<div class="message-raw-popup__text">
+							<div class="message-raw-popup__title">Отправить сообщение</div>
+							<div class="message-raw-popup__subtitle">
+								Заполните форму ниже, и наш менеджер свяжется с вами в ближайшее время!
+							</div>
+						</div>
+						<form method="POST" class="message-raw-popup__form">
+							<div class="form-text">
+								<div class="form-text__block">
+									<div class="form-text__block-title">Имя</div>
+									<input name="first-name" type="text" class="form-text__text-item">
+								</div>
+								<div class="form-text__block">
+									<div class="form-text__block-title">Фамилия</div>
+									<input name="last-name" type="text" class="form-text__text-item">
+								</div>
+								<div class="form-text__block">
+									<div class="form-text__block-title">Электронная почта</div>
+									<input name="e-mail" type="text" class="form-text__text-item">
+								</div>
+								<div class="form-text__block">
+									<div class="form-text__block-title">Номер телефона</div>
+									<input name="phone" type="text" class="form-text__text-item">
+								</div>
+							</div>
+
+							<div class="form-checkbox">
+								Выберите категорию
+								<div class="form-checkbox__raw">
+									<div class="form-checkbox__block">
+										<input name="buildings" class="form-checkbox__item" type="checkbox">
+										<div class="form-checkbox__title">Строительство</div>
+									</div>
+									<div class="form-checkbox__block">
+										<input name="Fertilizers" class="form-checkbox__item" type="checkbox">
+										<div class="form-checkbox__title">Удобрения</div>
+									</div>
+									<div class="form-checkbox__block">
+										<input name="Polyethylene" class="form-checkbox__item" type="checkbox">
+										<div class="form-checkbox__title">Полиэтилен</div>
+									</div>
+									<div class="form-checkbox__block">
+										<input class="form-checkbox__item" type="checkbox">
+										<div class="form-checkbox__title">Мотоциклы / автомобили</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="agree-button">
+								<div class="form__checkbox"> <input required type="checkbox" class="">
+									<div class="agree-button__title">
+										Я ознакомлен с политикой конфиденциальности и согласен на обработку персональных данных</div>
+								</div>
+								<button type="submit" class="submit-button black__button">Отправить сообщение</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
